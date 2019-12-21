@@ -3,10 +3,9 @@ package ir.maktab32.java.homeworks.hw8.articles.entities;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 
-import javax.persistence.Entity;
-import javax.persistence.GeneratedValue;
-import javax.persistence.GenerationType;
-import javax.persistence.Id;
+import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -17,4 +16,7 @@ public class Category {
     private Integer id;
     private String title;
     private String description;
+
+    @OneToMany
+    private List<Article> articleList = new ArrayList<>();
 }

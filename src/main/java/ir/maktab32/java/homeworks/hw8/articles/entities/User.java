@@ -4,6 +4,8 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 
 import javax.persistence.*;
+import java.util.ArrayList;
+import java.util.List;
 
 @Data
 @AllArgsConstructor
@@ -27,4 +29,7 @@ public class User {
 
     @Column(name = "birthday", nullable = false, length = 10)
     private String birthday;
+
+    @OneToMany
+    private List<Article> articleList = new ArrayList<>();
 }
