@@ -14,5 +14,9 @@
         </property>
         <property name="show_sql">true</property>
         <property name="hibernate.hbm2ddl.auto">update</property>
+
+        <mapping class="ir.maktab32.java.homeworks.hw8.articles.entities.Article"/>
+        <mapping class="ir.maktab32.java.homeworks.hw8.articles.entities.Category"/>
+        <mapping class="ir.maktab32.java.homeworks.hw8.articles.entities.User"/>
     </session-factory>
 </hibernate-configuration>
