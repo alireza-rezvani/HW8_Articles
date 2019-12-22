@@ -12,11 +12,13 @@ import java.util.List;
 public class FindAllArticlesUseCaseImpl implements FindAllArticlesUseCase {
     @Override
     public List<Article> articleList() {
+        List<Article> result = null;
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
         Query query = session.createQuery("from Article ");
-        List<Article> result = query.list();
+        result = query.list();
+        session.getTransaction().commit();
         return result;
     }
 }
