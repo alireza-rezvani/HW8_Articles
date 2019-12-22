@@ -3,7 +3,7 @@ package ir.maktab32.java.homeworks.hw8.articles.share;
 import ir.maktab32.java.homeworks.hw8.articles.entities.User;
 
 public class AuthenticationService {
-    private User loginUser;
+    private User SignedInUser;
     private static AuthenticationService authenticationService = null;
     public static AuthenticationService getInstance(){
         if (authenticationService == null)
@@ -11,12 +11,12 @@ public class AuthenticationService {
         return authenticationService;
     }
 
-    public User getLoginUser(){
-        return loginUser;
+    public User getSignedInUser(){
+        return SignedInUser;
     }
 
-    public void setLoginUser(User user){
-        this.loginUser = user;
+    public void setSignedInUser(User user){
+        this.SignedInUser = user;
     }
 
 }
