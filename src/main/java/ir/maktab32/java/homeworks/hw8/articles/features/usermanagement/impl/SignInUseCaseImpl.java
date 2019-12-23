@@ -17,7 +17,8 @@ public class SignInUseCaseImpl implements SignInUseCase {
         Query query = session.createQuery("from User where username = :username and password = :password");
         query.setString("username", username);
         query.setString("password", password);
-        result = (User) query.list().get(0);
+        if (query.list().size() > 0)
+            result = (User) query.list().get(0);
         session.getTransaction().commit();
         return result;
     }

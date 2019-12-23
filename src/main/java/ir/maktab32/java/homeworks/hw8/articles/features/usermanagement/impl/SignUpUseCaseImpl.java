@@ -17,6 +17,6 @@ public class SignUpUseCaseImpl implements SignUpUseCase {
         System.out.println("Your User Id: " + id);
         result = session.load(User.class, id);
         session.getTransaction().commit();
-        return null;
+        return result;
     }
 }
