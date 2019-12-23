@@ -20,7 +20,7 @@ public class UpdateArticleByUserUseCaseImpl implements UpdateArticleByUserUseCas
         oldArticle.setBrief(article.getBrief());
         oldArticle.setContent(article.getContent());
         oldArticle.setIsPublished(article.getIsPublished());
-        oldArticle.setLastUpdateDate(new Date());
+        oldArticle.setLastUpdateDate(article.getLastUpdateDate());
         session.update(oldArticle);
         session.getTransaction().commit();
         return result;
