@@ -32,6 +32,14 @@ public class User {
     @Column(name = "birthday", nullable = false, length = 10)
     private String birthday;
 
-    @OneToMany
+    @OneToMany(mappedBy = "author")
     private List<Article> articleList = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return "User{" +
+                "id=" + id +
+                ", username='" + username + '\'' +
+                '}';
+    }
 }

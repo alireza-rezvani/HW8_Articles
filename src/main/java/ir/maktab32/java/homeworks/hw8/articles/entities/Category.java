@@ -19,6 +19,15 @@ public class Category {
     private String title;
     private String description;
 
-    @OneToMany
+    @OneToMany(mappedBy = "category")
     private List<Article> articleList = new ArrayList<>();
+
+    @Override
+    public String toString() {
+        return "Category{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", description='" + description + '\'' +
+                '}';
+    }
 }
