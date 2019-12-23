@@ -6,8 +6,6 @@ import ir.maktab32.java.homeworks.hw8.articles.features.articlemanagement.usecas
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 
-import java.util.Date;
-
 public class UpdateArticleByUserUseCaseImpl implements UpdateArticleByUserUseCase {
     @Override
     public Article update(Integer id, Article article) {

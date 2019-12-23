@@ -1,21 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f082f900-e473-46db-90ea-857e2ca73fec" name="Default Changelist" comment="pluf edited.">
-      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/ArticlesApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/HW8_Articles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_Articles.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/commandsmanager/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/commandsmanager/Command.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByAuthorUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByAuthorUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByTitleUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByTitleUseCaseImpl.java" afterDir="false" />
+    <list default="true" id="f082f900-e473-46db-90ea-857e2ca73fec" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/UpdateArticleByUserUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/UpdateArticleByUserUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/AddCategoryByUserUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/AddCategoryByUserUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/usermanagement/impl/SignUpUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/usermanagement/impl/SignUpUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/menu/Menu.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/FindAllCategoriesUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/FindAllCategoriesUseCaseImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +122,7 @@
       <workItem from="1576919106109" duration="13400000" />
       <workItem from="1577005278573" duration="1773000" />
       <workItem from="1577032156180" duration="25101000" />
-      <workItem from="1577082422444" duration="44438000" />
+      <workItem from="1577082422444" duration="44989000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <created>1576919214681</created>
@@ -416,7 +404,14 @@
       <option name="project" value="LOCAL" />
       <updated>1577138985934</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="bugs fixed. project completed!">
+      <created>1577143680761</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1577143680761</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -436,7 +431,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SignInUseCase.java &amp; SignInUseCaseImpl.java completed" />
     <MESSAGE value="SignInUseCase completed" />
     <MESSAGE value="SignUpUseCase &amp; SignUpUseCaseImpl completed" />
     <MESSAGE value="AuthenticationService.java completed" />
@@ -461,7 +455,8 @@
     <MESSAGE value="IsNumeric completed" />
     <MESSAGE value="Command.java completed" />
     <MESSAGE value="showing sql disabled in hibernate.cfg.xml" />
-    <option name="LAST_COMMIT_MESSAGE" value="showing sql disabled in hibernate.cfg.xml" />
+    <MESSAGE value="bugs fixed. project completed!" />
+    <option name="LAST_COMMIT_MESSAGE" value="bugs fixed. project completed!" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="24" key="#Assign_Data_Sources" timestamp="1577005471163">
@@ -480,10 +475,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577109647977" />
-    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1577143588708">
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1577143679908">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577143588708" />
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577143679908" />
     <state width="1322" height="556" key="GridCell.Tab.0.bottom" timestamp="1577143550388">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

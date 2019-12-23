@@ -5,7 +5,6 @@ import ir.maktab32.java.homeworks.hw8.articles.entities.Category;
 import ir.maktab32.java.homeworks.hw8.articles.features.categorymanagement.usecase.FindAllCategoriesUseCase;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
-import org.hibernate.query.Query;
 
 import java.util.ArrayList;
 import java.util.List;
