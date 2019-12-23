@@ -16,7 +16,8 @@ public class FindArticleByTitleUseCaseImpl implements FindArticleByTitleUseCase 
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
-        Query query = session.createQuery("from Article where title = " + title);
+        Query query = session.createQuery("from Article where title = :title");
+        query.setString("title", title);
         result = query.list();
         session.getTransaction().commit();
         return result;

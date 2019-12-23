@@ -1,21 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f082f900-e473-46db-90ea-857e2ca73fec" name="Default Changelist" comment="" />
+    <list default="true" id="f082f900-e473-46db-90ea-857e2ca73fec" name="Default Changelist" comment="pluf edited.">
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/ArticlesApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_Articles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_Articles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/commandsmanager/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/commandsmanager/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByAuthorUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByAuthorUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByTitleUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/FindArticleByTitleUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/UpdateArticleByUserUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/UpdateArticleByUserUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/AddCategoryByUserUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/AddCategoryByUserUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/usermanagement/impl/SignUpUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/usermanagement/impl/SignUpUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/menu/Menu.java" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="articles@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="articles@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="articles@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="articles: schema" type="ebfa3cd1:MariaImplModel$Schema" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\Alireza\Desktop\Maktab Homeworks\Alireza_RezvaniFakhr_HW8_Maktab32\HW8_Articles\.idea" />
+      </set>
+    </option>
+  </component>
   <component name="ProjectId" id="1VHntFKipMmZcAOPm1dfpSAyse8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
+    <property name="DatabaseDriversLRU" value="mysql" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Alireza_RezvaniFakhr_HW6_Maktab32/ScholarsipManagement" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.24252874" />
+  </component>
+  <component name="RunManager">
+    <configuration name="ArticlesApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ir.maktab32.java.homeworks.hw8.articles.ArticlesApplication" />
+      <module name="HW8_Articles" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ir.maktab32.java.homeworks.hw8.articles.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ArticlesApplication" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -39,8 +131,386 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1576919100353</updated>
-      <workItem from="1576919106109" duration="2000" />
+      <workItem from="1576919106109" duration="13400000" />
+      <workItem from="1577005278573" duration="1773000" />
+      <workItem from="1577032156180" duration="25101000" />
+      <workItem from="1577082422444" duration="44438000" />
     </task>
+    <task id="LOCAL-00001" summary="project created.">
+      <created>1576919214681</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1576919214681</updated>
+    </task>
+    <task id="LOCAL-00002" summary="plugin &amp; dependencies added to pom.xml">
+      <created>1576919912612</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1576919912612</updated>
+    </task>
+    <task id="LOCAL-00003" summary="properties added to hibernate.cfg.xml">
+      <created>1576920572475</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1576920572475</updated>
+    </task>
+    <task id="LOCAL-00004" summary="HibernateUtil.java completed">
+      <created>1576921753661</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1576921753661</updated>
+    </task>
+    <task id="LOCAL-00005" summary="lombok dependency added to pom.xml">
+      <created>1576924817010</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1576924817010</updated>
+    </task>
+    <task id="LOCAL-00006" summary="User.java completed.">
+      <created>1576934639101</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1576934639101</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Category.java completed">
+      <created>1576934871916</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1576934871916</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Article.java completed">
+      <created>1576936057343</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1576936057343</updated>
+    </task>
+    <task id="LOCAL-00009" summary="articleList added to User.java &amp; Category.java">
+      <created>1576936285828</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1576936285828</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Menu.java completed">
+      <created>1576937359988</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1576937359988</updated>
+    </task>
+    <task id="LOCAL-00011" summary="mapping added to hibernate.cfg.xml">
+      <created>1576939645782</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1576939645782</updated>
+    </task>
+    <task id="LOCAL-00012" summary="FindAllArticlesUseCase &amp; FindAllArticlesUseCaseImpl completed">
+      <created>1576939955290</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1576939955290</updated>
+    </task>
+    <task id="LOCAL-00013" summary="project edited to create and connecting to database">
+      <created>1577005754968</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1577005754968</updated>
+    </task>
+    <task id="LOCAL-00014" summary="FindAllArticlesUseCaseImpl.java edited">
+      <created>1577033472784</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1577033472784</updated>
+    </task>
+    <task id="LOCAL-00015" summary="SignInUseCase.java &amp; SignInUseCaseImpl.java completed">
+      <created>1577038451087</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1577038451087</updated>
+    </task>
+    <task id="LOCAL-00016" summary="SignInUseCase completed">
+      <created>1577038536758</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1577038536758</updated>
+    </task>
+    <task id="LOCAL-00017" summary="SignUpUseCase &amp; SignUpUseCaseImpl completed">
+      <created>1577039721726</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1577039721726</updated>
+    </task>
+    <task id="LOCAL-00018" summary="AuthenticationService.java completed">
+      <created>1577042311322</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1577042311322</updated>
+    </task>
+    <task id="LOCAL-00019" summary="AuthenticationService.java edited">
+      <created>1577042472941</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1577042472941</updated>
+    </task>
+    <task id="LOCAL-00020" summary="menu edited">
+      <created>1577044583989</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1577044583989</updated>
+    </task>
+    <task id="LOCAL-00021" summary="FindArticleByIdUseCase &amp; FindArticleByIdUseCaseImpl completed">
+      <created>1577047034371</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1577047034372</updated>
+    </task>
+    <task id="LOCAL-00022" summary="ChangePasswordUseCase &amp; ChangePasswordUseCaseImpl completed">
+      <created>1577050202839</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1577050202839</updated>
+    </task>
+    <task id="LOCAL-00023" summary="FindArticlesByUserUseCase &amp; FindArticlesByUserUseCaseImpl completed">
+      <created>1577051207207</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1577051207207</updated>
+    </task>
+    <task id="LOCAL-00024" summary="AddArticleByUserUseCase &amp; AddArticleByUserUseCaseImpl completed">
+      <created>1577052150698</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1577052150698</updated>
+    </task>
+    <task id="LOCAL-00025" summary="UpdateArticleByUserUseCase &amp; UpdateArticleByUserUseCaseImpl completed">
+      <created>1577055741323</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1577055741323</updated>
+    </task>
+    <task id="LOCAL-00026" summary="FindAllCategoriesUseCase &amp; FindAllCategoriesUseCaseImpl completed">
+      <created>1577056778250</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1577056778250</updated>
+    </task>
+    <task id="LOCAL-00027" summary="AddCategoryByUserUseCase &amp; AddCategoryByUserUseCaseImpl completed">
+      <created>1577060360095</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1577060360095</updated>
+    </task>
+    <task id="LOCAL-00028" summary="AddCategoryByUserUseCase &amp; AddCategoryByUserUseCaseImpl edited&#10;return type added">
+      <created>1577061573893</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1577061573893</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Article.java &amp; Category.java &amp; User.java edited&#10;toString override">
+      <created>1577108476238</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1577108476238</updated>
+    </task>
+    <task id="LOCAL-00030" summary="FindArticlesByUserUseCaseImpl edited">
+      <created>1577108528244</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1577108528244</updated>
+    </task>
+    <task id="LOCAL-00031" summary="SignInUseCaseImpl.java &amp; SignUpUseCaseImpl.java edited">
+      <created>1577108572723</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1577108572723</updated>
+    </task>
+    <task id="LOCAL-00032" summary="FindArticleByAuthorUseCase &amp; FindArticleByAuthorUseCaseImpl completed">
+      <created>1577109046833</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1577109046833</updated>
+    </task>
+    <task id="LOCAL-00033" summary="FindArticleByTitleUseCase &amp; FindArticleByTitleUseCaseImpl completed">
+      <created>1577109842921</created>
+      <option name="number" value="00033" />
+      <option name="presentableId" value="LOCAL-00033" />
+      <option name="project" value="LOCAL" />
+      <updated>1577109842921</updated>
+    </task>
+    <task id="LOCAL-00034" summary="isNumeric completed">
+      <created>1577115957230</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1577115957230</updated>
+    </task>
+    <task id="LOCAL-00035" summary="UpdateArticleByUserUseCaseImpl edited">
+      <created>1577126421485</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1577126421485</updated>
+    </task>
+    <task id="LOCAL-00036" summary="Menu completed">
+      <created>1577137220696</created>
+      <option name="number" value="00036" />
+      <option name="presentableId" value="LOCAL-00036" />
+      <option name="project" value="LOCAL" />
+      <updated>1577137220696</updated>
+    </task>
+    <task id="LOCAL-00037" summary="UpdateArticleByUserUseCaseImpl edited">
+      <created>1577137283710</created>
+      <option name="number" value="00037" />
+      <option name="presentableId" value="LOCAL-00037" />
+      <option name="project" value="LOCAL" />
+      <updated>1577137283710</updated>
+    </task>
+    <task id="LOCAL-00038" summary="IsNumeric completed">
+      <created>1577137330249</created>
+      <option name="number" value="00038" />
+      <option name="presentableId" value="LOCAL-00038" />
+      <option name="project" value="LOCAL" />
+      <updated>1577137330249</updated>
+    </task>
+    <task id="LOCAL-00039" summary="Command.java completed">
+      <created>1577138804659</created>
+      <option name="number" value="00039" />
+      <option name="presentableId" value="LOCAL-00039" />
+      <option name="project" value="LOCAL" />
+      <updated>1577138804659</updated>
+    </task>
+    <task id="LOCAL-00040" summary="showing sql disabled in hibernate.cfg.xml">
+      <created>1577138985934</created>
+      <option name="number" value="00040" />
+      <option name="presentableId" value="LOCAL-00040" />
+      <option name="project" value="LOCAL" />
+      <updated>1577138985934</updated>
+    </task>
+    <option name="localTasksCounter" value="41" />
     <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="SignInUseCase.java &amp; SignInUseCaseImpl.java completed" />
+    <MESSAGE value="SignInUseCase completed" />
+    <MESSAGE value="SignUpUseCase &amp; SignUpUseCaseImpl completed" />
+    <MESSAGE value="AuthenticationService.java completed" />
+    <MESSAGE value="AuthenticationService.java edited" />
+    <MESSAGE value="menu edited" />
+    <MESSAGE value="FindArticleByIdUseCase &amp; FindArticleByIdUseCaseImpl completed" />
+    <MESSAGE value="ChangePasswordUseCase &amp; ChangePasswordUseCaseImpl completed" />
+    <MESSAGE value="FindArticlesByUserUseCase &amp; FindArticlesByUserUseCaseImpl completed" />
+    <MESSAGE value="AddArticleByUserUseCase &amp; AddArticleByUserUseCaseImpl completed" />
+    <MESSAGE value="UpdateArticleByUserUseCase &amp; UpdateArticleByUserUseCaseImpl completed" />
+    <MESSAGE value="FindAllCategoriesUseCase &amp; FindAllCategoriesUseCaseImpl completed" />
+    <MESSAGE value="AddCategoryByUserUseCase &amp; AddCategoryByUserUseCaseImpl completed" />
+    <MESSAGE value="AddCategoryByUserUseCase &amp; AddCategoryByUserUseCaseImpl edited&#10;return type added" />
+    <MESSAGE value="Article.java &amp; Category.java &amp; User.java edited&#10;toString override" />
+    <MESSAGE value="FindArticlesByUserUseCaseImpl edited" />
+    <MESSAGE value="SignInUseCaseImpl.java &amp; SignUpUseCaseImpl.java edited" />
+    <MESSAGE value="FindArticleByAuthorUseCase &amp; FindArticleByAuthorUseCaseImpl completed" />
+    <MESSAGE value="FindArticleByTitleUseCase &amp; FindArticleByTitleUseCaseImpl completed" />
+    <MESSAGE value="isNumeric completed" />
+    <MESSAGE value="Menu completed" />
+    <MESSAGE value="UpdateArticleByUserUseCaseImpl edited" />
+    <MESSAGE value="IsNumeric completed" />
+    <MESSAGE value="Command.java completed" />
+    <MESSAGE value="showing sql disabled in hibernate.cfg.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="showing sql disabled in hibernate.cfg.xml" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="275" y="24" key="#Assign_Data_Sources" timestamp="1577005471163">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1577005471163" />
+    <state x="275" y="24" key="#Project_Structure" timestamp="1576936516961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1576936516961" />
+    <state x="206" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577005433961">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="206" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577005433961" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1577109647977">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577109647977" />
+    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1577143588708">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577143588708" />
+    <state width="1322" height="556" key="GridCell.Tab.0.bottom" timestamp="1577143550388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="556" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
+    <state width="1322" height="556" key="GridCell.Tab.0.center" timestamp="1577143550388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="556" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
+    <state width="1322" height="556" key="GridCell.Tab.0.left" timestamp="1577143550388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="556" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
+    <state width="1322" height="556" key="GridCell.Tab.0.right" timestamp="1577143550388">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1322" height="556" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
+    <state x="163" y="0" key="SettingsEditor" timestamp="1576941244566">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576941244566" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577005339167">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577005339167" />
+    <state x="413" y="136" key="extract.method.dialog" timestamp="1577109799286">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="413" y="136" key="extract.method.dialog/0.0.1366.728@0.0.1366.728" timestamp="1577109799286" />
   </component>
 </project>

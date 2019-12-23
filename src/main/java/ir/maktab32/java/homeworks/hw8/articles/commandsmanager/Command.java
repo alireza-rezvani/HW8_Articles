@@ -181,7 +181,7 @@ public class Command {
                 }
                 String categoryChoice = scanner.nextLine();
                 if (categoryChoice.equals("n")) {
-                    System.out.println("\t\t\u29bf Category Title: ");
+                    System.out.print("\t\t\u29bf Category Title: ");
                     String categoryTitle = scanner.nextLine();
                     System.out.print("\t\t\u29bf Category Description: ");
                     String categorydesc = scanner.nextLine();
@@ -243,7 +243,7 @@ public class Command {
                     Category category = null;
                     List<Category> categories = new FindAllCategoriesUseCaseImpl().list();
                     for (int i = 0; i< categories.size(); i++)
-                        System.out.println((i+1) + ". " + categories.get(i));
+                        System.out.println("\t\t\t" + (i+1) + ". " + categories.get(i));
                     String categoryChoice = scanner.nextLine();
                     if (!categoryChoice.equals("*")) {
 
