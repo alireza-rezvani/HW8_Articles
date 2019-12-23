@@ -18,7 +18,7 @@ public class FindArticlesByUserUseCaseImpl implements FindArticlesByUserUseCase 
         SessionFactory sessionFactory = HibernateUtil.getSessionFactory();
         Session session = sessionFactory.openSession();
         session.beginTransaction();
-        Query query = session.createQuery("from Article where author = " + user.getUsername());
+        Query query = session.createQuery("from Article where author = " + user.getId());
         result = query.list();
         session.getTransaction().commit();
         return result;
