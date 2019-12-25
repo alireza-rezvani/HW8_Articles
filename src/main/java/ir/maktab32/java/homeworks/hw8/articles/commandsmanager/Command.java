@@ -7,6 +7,7 @@ import ir.maktab32.java.homeworks.hw8.articles.features.articlemanagement.impl.*
 import ir.maktab32.java.homeworks.hw8.articles.features.categorymanagement.impl.AddCategoryByUserUseCaseImpl;
 import ir.maktab32.java.homeworks.hw8.articles.features.categorymanagement.impl.FindAllCategoriesUseCaseImpl;
 import ir.maktab32.java.homeworks.hw8.articles.features.usermanagement.impl.ChangePasswordUseCaseImpl;
+import ir.maktab32.java.homeworks.hw8.articles.features.usermanagement.impl.FindAllUsersUseCaseImpl;
 import ir.maktab32.java.homeworks.hw8.articles.features.usermanagement.impl.SignInUseCaseImpl;
 import ir.maktab32.java.homeworks.hw8.articles.features.usermanagement.impl.SignUpUseCaseImpl;
 import ir.maktab32.java.homeworks.hw8.articles.share.AuthenticationService;
@@ -53,15 +54,44 @@ public class Command {
         if (signedInUser != null)
             System.out.println("\t\u26a0 Sign Out First!");
         else{
-            System.out.print("\t\u29bf Username: ");
-            String username = scanner.nextLine();
-
+            String username = "";
+            boolean isUsernameValid = false;
+            while (isUsernameValid == false) {
+                System.out.print("\t\u29bf Username: ");
+                username = scanner.nextLine();
+                isUsernameValid = true;
+                List<User> users = new FindAllUsersUseCaseImpl().list();
+                if (username.isEmpty()){
+                    System.out.println("\t\t\u26a0 Invalid Username!");
+                    isUsernameValid = false;
+                }
+                else if (users.size() > 0){
+                    for (User i : users) {
+                        if (i.getUsername().equals(username)) {
+                            System.out.println("\t\t\u26a0 This Username Already Exists in Database!");
+                            isUsernameValid = false;
+                            break;
+                        }
+                    }
+                }
+            }
             String nationalCode = "";
             while ((!IsNumeric.run(nationalCode)) || nationalCode.length() != 10) {
                 System.out.print("\t\u29bf National Code: ");
                 nationalCode = scanner.nextLine();
                 if ((!IsNumeric.run(nationalCode)) || nationalCode.length() != 10)
                     System.out.println("\t\t\u26a0 Invalid National Code!");
+                else {
+                    List<User> users = new FindAllUsersUseCaseImpl().list();
+                    if (users.size() > 0){
+                        for (User i : users)
+                            if (i.getNationalCode().equals(nationalCode)){
+                                System.out.println("\t\t\u26a0 This National Code Already Exists in Database!");
+                                nationalCode = "";
+                                break;
+                            }
+                    }
+                }
             }
 
             System.out.print("\t\u29bf Birth Date: ");
@@ -177,24 +207,45 @@ public class Command {
                 Category category = null;
                 List<Category> categories = new FindAllCategoriesUseCaseImpl().list();
                 for (int i = 0; i < categories.size(); i++) {
-                    System.out.println((i + 1) + ". " + categories.get(i));
+                    System.out.println("\t\t" + (i + 1) + ". " + categories.get(i));
                 }
                 String categoryChoice = scanner.nextLine();
                 if (categoryChoice.equals("n")) {
-                    System.out.print("\t\t\u29bf Category Title: ");
-                    String categoryTitle = scanner.nextLine();
+
+                    String categoryTitle = "";
+                    while (categoryTitle.equals("")) {
+                        System.out.print("\t\t\u29bf Category Title: ");
+                        categoryTitle = scanner.nextLine();
+                        if (categoryTitle.equals(""))
+                            System.out.println("\t\t\t\u26a0 Invalid Category Title!");
+                        else {
+                            List<Category> allCategories = new FindAllCategoriesUseCaseImpl().list();
+                            if (allCategories.size() > 0){
+                                for (Category i : allCategories)
+                                    if (i.getTitle().equals(categoryTitle)){
+                                        System.out.println("\t\t\t\u26a0 This Category Already Exists in Database!");
+                                        categoryTitle = "";
+                                        break;
+                                    }
+                            }
+                        }
+                    }
                     System.out.print("\t\t\u29bf Category Description: ");
                     String categorydesc = scanner.nextLine();
                     category = new AddCategoryByUserUseCaseImpl().add(new Category(null, categoryTitle, categorydesc, null));
-                } else {
+                }
+                else {
                     if (IsNumeric.run(categoryChoice) && Integer.parseInt(categoryChoice) <= categories.size())
                         category = categories.get(Integer.parseInt(categoryChoice) - 1);
                     else
                         System.out.println("\t\t\u26a0 Invalid Input!");
                 }
-                Article article = new Article(null, title, brief, content, new Date(), null, null, false, signedInUser, category);
-                new AddArticleByUserUseCaseImpl().add(article);
-                System.out.println("\t\t\u2705 Article Added Successfully!");
+                if ((IsNumeric.run(categoryChoice) && Integer.parseInt(categoryChoice) <= categories.size())
+                        || categoryChoice.equals("n")) {
+                    Article article = new Article(null, title, brief, content, new Date(), null, null, false, signedInUser, category);
+                    new AddArticleByUserUseCaseImpl().add(article);
+                    System.out.println("\t\t\t\u2705 Article Added Successfully!");
+                }
             }catch (Exception e){
                 System.out.println("\t\t\u26a0 Adding Article Failed!");
                 System.out.println("\t\t\u26a0 " + e.getMessage());
@@ -216,7 +267,7 @@ public class Command {
             try {
                 Article article = new FindArticleByIdUseCaseImpl().find(Integer.parseInt(id));
                 if (!article.getAuthor().getUsername().equals(signedInUser.getUsername())){
-                    System.out.println("\t\t\u26a0 You aren't allowed to edit this article!");
+                    System.out.println("\t\t\u26a0 You Aren't Allowed to Edit This Article!");
                 }
                 else {
                     boolean isEdited = false;
@@ -235,7 +286,7 @@ public class Command {
                     System.out.println("\t\t\u29bf New Content:\t(Press * to Skip)");
                     String content = scanner.nextLine();
                     if (!content.equals("*")) {
-                        article.setBrief(content);
+                        article.setContent(content);
                         isEdited = true;
                     }
 
@@ -249,8 +300,26 @@ public class Command {
 
                         Category oldCategory = article.getCategory();
                         if (categoryChoice.equals("n")) {
-                            System.out.print("\t\t\t\u29bf Category Title: ");
-                            String categoryTitle = scanner.nextLine();
+
+                            String categoryTitle = "";
+                            while (categoryTitle.equals("")) {
+                                System.out.print("\t\t\t\u29bf Category Title: ");
+                                categoryTitle = scanner.nextLine();
+                                if (categoryTitle.equals(""))
+                                    System.out.println("\t\t\t\u26a0 Invalid Category Title!");
+                                else {
+                                    List<Category> allCategories = new FindAllCategoriesUseCaseImpl().list();
+                                    if (allCategories.size() > 0){
+                                        for (Category i : allCategories)
+                                            if (i.getTitle().equals(categoryTitle)){
+                                                System.out.println("\t\t\t\t\u26a0 This Category Already Exists in Database!");
+                                                categoryTitle = "";
+                                                break;
+                                            }
+                                    }
+                                }
+                            }
+
                             System.out.print("\t\t\t\u29bf Category Description: ");
                             String categorydesc = scanner.nextLine();
                             category = new AddCategoryByUserUseCaseImpl().add(new Category(null, categoryTitle, categorydesc, null));
@@ -261,7 +330,7 @@ public class Command {
                             else
                                 System.out.println("\t\t\t\u26a0 Invalid Input!");
                         }
-                        if (!oldCategory.equals(category)){
+                        if (!oldCategory.equals(category) && category != null){
                             article.setCategory(category);
                             isEdited = true;
                         }

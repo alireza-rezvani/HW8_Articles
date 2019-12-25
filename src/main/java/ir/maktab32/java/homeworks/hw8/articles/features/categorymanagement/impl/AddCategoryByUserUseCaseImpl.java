@@ -14,7 +14,7 @@ public class AddCategoryByUserUseCaseImpl implements AddCategoryByUserUseCase {
         Session session = sessionFactory.openSession();
         session.beginTransaction();
         Integer id = (Integer) session.save(category);
-        System.out.println("\t\t\u2705 Catogory Created. Id: " + id);
+        System.out.println("\t\t\t\u2705 Catogory Created. Id: " + id);
         result = session.load(Category.class, id);
         session.getTransaction().commit();
         return result;

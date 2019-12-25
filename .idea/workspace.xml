@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f082f900-e473-46db-90ea-857e2ca73fec" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/UpdateArticleByUserUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/articlemanagement/impl/UpdateArticleByUserUseCaseImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/FindAllCategoriesUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/FindAllCategoriesUseCaseImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/HW8_Articles.iml" beforeDir="false" afterPath="$PROJECT_DIR$/HW8_Articles.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/commandsmanager/Command.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/commandsmanager/Command.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/AddCategoryByUserUseCaseImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ir/maktab32/java/homeworks/hw8/articles/features/categorymanagement/impl/AddCategoryByUserUseCaseImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,23 +24,7 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="articles@localhost" type="feb32156:DbDataSourceImpl" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="articles@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-      </path>
-      <path>
-        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
-        <item name="articles@localhost" type="feb32156:DbDataSourceImpl" />
-        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
-        <item name="articles: schema" type="ebfa3cd1:MariaImplModel$Schema" />
-      </path>
-    </expand>
+    <expand />
     <select />
   </component>
   <component name="FileTemplateManagerImpl">
@@ -122,7 +109,10 @@
       <workItem from="1576919106109" duration="13400000" />
       <workItem from="1577005278573" duration="1773000" />
       <workItem from="1577032156180" duration="25101000" />
-      <workItem from="1577082422444" duration="44989000" />
+      <workItem from="1577082422444" duration="45575000" />
+      <workItem from="1577204647983" duration="7788000" />
+      <workItem from="1577258955174" duration="132000" />
+      <workItem from="1577286576432" duration="290000" />
     </task>
     <task id="LOCAL-00001" summary="project created.">
       <created>1576919214681</created>
@@ -411,7 +401,28 @@
       <option name="project" value="LOCAL" />
       <updated>1577143680761</updated>
     </task>
-    <option name="localTasksCounter" value="42" />
+    <task id="LOCAL-00042" summary="project completed!">
+      <created>1577144150044</created>
+      <option name="number" value="00042" />
+      <option name="presentableId" value="LOCAL-00042" />
+      <option name="project" value="LOCAL" />
+      <updated>1577144150044</updated>
+    </task>
+    <task id="LOCAL-00043" summary="FindAllUsersUseCase &amp; FindAllUsersUseCaseImpl completed.">
+      <created>1577206250076</created>
+      <option name="number" value="00043" />
+      <option name="presentableId" value="LOCAL-00043" />
+      <option name="project" value="LOCAL" />
+      <updated>1577206250076</updated>
+    </task>
+    <task id="LOCAL-00044" summary="making nationalCode unique.">
+      <created>1577208073470</created>
+      <option name="number" value="00044" />
+      <option name="presentableId" value="LOCAL-00044" />
+      <option name="project" value="LOCAL" />
+      <updated>1577208073470</updated>
+    </task>
+    <option name="localTasksCounter" value="45" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -431,9 +442,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="SignInUseCase completed" />
-    <MESSAGE value="SignUpUseCase &amp; SignUpUseCaseImpl completed" />
-    <MESSAGE value="AuthenticationService.java completed" />
     <MESSAGE value="AuthenticationService.java edited" />
     <MESSAGE value="menu edited" />
     <MESSAGE value="FindArticleByIdUseCase &amp; FindArticleByIdUseCaseImpl completed" />
@@ -456,53 +464,56 @@
     <MESSAGE value="Command.java completed" />
     <MESSAGE value="showing sql disabled in hibernate.cfg.xml" />
     <MESSAGE value="bugs fixed. project completed!" />
-    <option name="LAST_COMMIT_MESSAGE" value="bugs fixed. project completed!" />
+    <MESSAGE value="project completed!" />
+    <MESSAGE value="FindAllUsersUseCase &amp; FindAllUsersUseCaseImpl completed." />
+    <MESSAGE value="making nationalCode unique." />
+    <option name="LAST_COMMIT_MESSAGE" value="making nationalCode unique." />
   </component>
   <component name="WindowStateProjectService">
-    <state x="275" y="24" key="#Assign_Data_Sources" timestamp="1577005471163">
+    <state x="275" y="24" key="#Assign_Data_Sources" timestamp="1577208153936">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="275" y="24" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1577005471163" />
+    <state x="275" y="24" key="#Assign_Data_Sources/0.0.1366.728@0.0.1366.728" timestamp="1577208153936" />
     <state x="275" y="24" key="#Project_Structure" timestamp="1576936516961">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="275" y="24" key="#Project_Structure/0.0.1366.728@0.0.1366.728" timestamp="1576936516961" />
-    <state x="206" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577005433961">
+    <state x="206" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1577208113187">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="206" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577005433961" />
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1577109647977">
+    <state x="206" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.728@0.0.1366.728" timestamp="1577208113187" />
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser" timestamp="1577206024687">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577109647977" />
-    <state x="344" y="0" key="CommitChangelistDialog2" timestamp="1577143679908">
+    <state x="488" y="72" key="#com.intellij.ide.util.MemberChooser/0.0.1366.728@0.0.1366.728" timestamp="1577206024687" />
+    <state x="314" y="0" key="CommitChangelistDialog2" timestamp="1577286935774">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="344" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577143679908" />
-    <state width="1322" height="556" key="GridCell.Tab.0.bottom" timestamp="1577143550388">
+    <state x="314" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1577286935774" />
+    <state width="1322" height="556" key="GridCell.Tab.0.bottom" timestamp="1577286867537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
-    <state width="1322" height="556" key="GridCell.Tab.0.center" timestamp="1577143550388">
+    <state width="1322" height="556" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1577286867537" />
+    <state width="1322" height="556" key="GridCell.Tab.0.center" timestamp="1577286867537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
-    <state width="1322" height="556" key="GridCell.Tab.0.left" timestamp="1577143550388">
+    <state width="1322" height="556" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1577286867537" />
+    <state width="1322" height="556" key="GridCell.Tab.0.left" timestamp="1577286867536">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
-    <state width="1322" height="556" key="GridCell.Tab.0.right" timestamp="1577143550388">
+    <state width="1322" height="556" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1577286867536" />
+    <state width="1322" height="556" key="GridCell.Tab.0.right" timestamp="1577286867537">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state width="1322" height="556" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577143550388" />
+    <state width="1322" height="556" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1577286867537" />
     <state x="163" y="0" key="SettingsEditor" timestamp="1576941244566">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="163" y="0" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576941244566" />
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577005339167">
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog" timestamp="1577259030231">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577005339167" />
+    <state x="390" y="190" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1577259030231" />
     <state x="413" y="136" key="extract.method.dialog" timestamp="1577109799286">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
